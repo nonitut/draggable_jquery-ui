@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+
+
+.draggable {
+	background: orange;
+	color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	cursor: move;
+display: inline-block;
+}
+.draggable:hover {
+	background: #FFF3F3;
+border-radius: 100px;
+}
